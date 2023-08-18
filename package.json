@@ -3,13 +3,20 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --port 5173 --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.10.7"
+    "@astrojs/svelte": "^3.1.0",
+    "@astrojs/tailwind": "^4.0.0",
+    "@fontsource-variable/outfit": "^5.0.8",
+    "@fontsource/poppins": "^5.0.8",
+    "astro": "^2.10.7",
+    "astro-icon": "^0.8.1",
+    "svelte": "^4.2.0",
+    "tailwindcss": "^3.3.3"
   }
 }
